@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+
+:root {
+    /* Paleta de Cores */
+    --cor-princ: #001388;
+    --cor-sec: #8091FF;
+    --cor-terc: #121947;
+    --cor-quart: #DCBA49;
+    --cor-quint: #876800;
+    --cor-sex: #B5E3F5;
+    --cor-set: #f0ffff;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    background: var(--cor-sec) url(../midias/imagens/matemática\,\ azul\ e\ branco.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 100vh;
+
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+}
+
+header > h1 {
+    color: var(--cor-quart);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1em;
+    width: 33.5vh;
+    text-align: center;
+}
+
+h1.logo-principal {
+    background-color: #001288ce;
+    padding: 25px;
+    font-family: cursive;
+    font-weight: 900;
+    border-radius: 10px;
+}
+
+main {
+    background-color: var(--cor-princ);    
+}
+
+menu {
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.459);
+}
+
+i#burger {
+    color: var(--cor-quint);
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--cor-terc);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.459);
+    padding: 15px;
+    transition: .4s;
+    transition-timing-function: ease;
+}
+
+i#burger:hover {
+    background-color: var(--cor-sec);
+}
+
+menu ul {
+    list-style-type: none;
+}
+
+menu li {
+    text-align: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.308);
+    
+}
+
+menu a {
+    display: block;
+    padding: 10px;
+    color: var(--cor-quart);
+    border: 1px solid #00000048;
+    text-decoration: none;
+    background-color: var(--cor-terc);
+    transition: .4s;
+    transition-timing-function: ease;
+}
+
+menu a:hover {
+    background-color: var(--cor-sec);
+}
+
+section {
+    padding: 0px;
+    height: 100vh;
+    box-shadow: 1px 1px 10px #00000065;
+    position: relative;
+}
+
+section h2 {
+    text-align: center;
+    font-weight: 700;
+    color: var(--cor-quart);
+    text-shadow: 1px 1px 10px #00000086;
+    font-size: 1.7em;
+}
+
+section p {
+    margin: 20px;
+    padding: 10px 30px;
+    text-align: justify;
+    text-indent: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #00000065;
+    font-size: 1.1em;
+    
+}
+
+section article {
+    background-color: var(--cor-princ);
+    padding: 30px 0px;  
+}
+
+div.mapa {
+    padding: 10px;
+    height: 100vh;
+    background-color: var(--cor-terc);
+    display: block;
+    box-shadow: 1px 1px 10px #00000079;
+}
+
+div.mapa h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.7em;
+}
+
+iframe#mapa-waze {
+    width: 100%;
+    height: 65vh;
+}
+
+
+div.parceiros {
+    background-color: var(--cor-princ);
+    margin: auto;
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+
+div.parceiros h1 {
+    color: var(--cor-quint);
+    text-shadow: 1px 1px 10px #00000086;
+    padding-top: 30px;
+    font-size: 1.7em;
+}
+
+div.parceiros  p {
+    background-color: var(--cor-sec);
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000a2;
+}
+
+aside {
+    display: block;
+    margin: auto;
+    width: 90vw;
+    background-color: var(--cor-set);
+    padding: 15px;
+    text-shadow: 1px 1px 10px #00000086;
+    box-shadow: 1px 1px 10px #00000086;
+    border-radius: 10px;
+}
+
+div#imagens  p {
+    display: block;
+    margin: auto;
+    width: 70vw;
+    padding: 10px;
+    
+}
+
+div#imt, #metro, #ie {
+    margin: 50px 0px 80px 0px;
+    
+}
+
+img.ie {
+    width: 150px;
+    height: 45px;
+}
+

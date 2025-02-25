@@ -7,10 +7,11 @@
     <link rel="shortcut icon" href="../midias/imagens/logo_correta_50.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style-media-query.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    
+    <!---->
     <title>Matemática no Metrô</title>
 </head>
 <body onresize="mudouTamanho()">
+    <!-- Cabeçalho -->
     <header>
         <h1 class="logo-principal">
             Matemática no Metrô
@@ -18,6 +19,7 @@
         <img src="../midias/imagens/logo_correta_150.png" alt="imagem projeto">
     </header>
     <main>
+        <!-- Menu -->
         <i class="material-symbols-outlined" id="burger" onclick="clicMenu()">
             menu
         </i>
@@ -29,44 +31,62 @@
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </menu>
+        <!-- Conteúdo -->
         <section>
             <article>
+                <!-- Resumo -->
                 <h2>
                     Sobre Nós
                 </h2>
                 <p>
                     Nosso projeto visa implementar um plantão de dúvidas de matemática em uma das estações de metrô da cidade, em uma iniciativa inovadora que une educação e mobilidade urbana. Buscamos oferecer suporte direto a estudantes e profissionais que enfrentam desafios em matemática, transformando o trajeto diário em uma oportunidade de aprendizado. Este projeto não apenas visa esclarecer dúvidas e fortalecer o conhecimento matemático, mas também promover a educação de forma acessível e prática, contribuindo para o desenvolvimento da comunidade.
                 </p>
+                <!-- Imagem Metro + logo -->
+                <div class="iframe-metro">
+                    <iframe src="iframe-metro.html" name="metro" id="imetro">
+                        Navegador não compatível
+                    </iframe>
+                </div>
+                <!-- Resumo 2 -->
                 <p>
                      Em parceria com o Instituto Mauá de Tecnologia, que fornecerá suporte acadêmico e especialistas em educação, o Metrô, que disponibilizará espaço e infraestrutura para a realização do plantão, e o Instituto de Engenharia, que contribuirá com conhecimento técnico e divulgação, buscamos oferecer esse suporte com atendimentos diários das 7h às 10h e das 14h às 18, em sessões individuais ou em pequenos grupos, conduzidas pelos criadores do projeto e estudantes voluntários, que buscam o crescimento e desenvolvimento da comunidade. Estamos empolgados com a possibilidade de levar a matemática a todos, tornando o aprendizado uma parte integral da experiência cotidiana no transporte público.
                 </p>
             </article>
+            <!-- Localização -->
             <div class="mapa">
                 <h2>Nossa Localização</h2>
                 <p>
                     O projeto acontece na estação Sacomã, na Linha 2-Verde do metrô de São Paulo, oferecendo suporte gratuito em matemática com educadores especializados. O espaço é acessível a estudantes de diversos níveis e permite que os usuários do transporte público aproveitem o serviço de forma conveniente, promovendo uma aprendizagem inclusiva.
                 </p>
-                <iframe src="https://embed.waze.com/iframe?zoom=16&lat=-23.603004&lon=-46.602631&ct=livemap" width="600" height="450" allowfullscreen id="mapa-waze"></iframe>
+                <!-- Mapa Waze -->
+                <div class="iframe-waze">
+                    <iframe src="https://embed.waze.com/iframe?zoom=16&lat=-23.603004&lon=-46.602631&ct=livemap" width="600" height="450" allowfullscreen id="mapa-waze"></iframe>
+                </div>
             </div>
+            <!-- Parceiros -->
             <div class="parceiros">
                 <aside>
                     <h1>Nossos Parceiros</h1>
                     <p>
                         Temos três principais parceiros que tornam nosso projeto possível, sendo eles...
                     </p>
+                    <!-- Imagem Parceiros -->
                     <div id="imagens">
+                        <!-- IMT -->
                         <div id="imt">
                             <img src="../midias/imagens/logo-IMT-150.png" alt="Logo IMT" class="imt">
                             <p>
                                 O Instituto Mauá de Tecnologia (IMT), fundado em 1961 em São Caetano do Sul, é referência em engenharia, administração e design. Destaca-se pela inovação, infraestrutura moderna e foco na aplicação prática, formando profissionais qualificados para desafios da indústria e da sociedade.
                             </p>
                         </div>
+                        <!-- METRO -->
                         <div id="metro">
                             <img src="../midias/imagens/metro-150.png" alt="Logo Metro" class="metro">
                             <p>
                                 A parceria entre Metrô, IE e IMT visa desenvolver soluções em engenharia, focando em infraestrutura, sustentabilidade e tecnologia. Essa aliança promove excelência, inovação e oportunidades de aprendizado e networking para estudantes e profissionais.
                             </p>
                         </div>
+                        <!--INSTITUTO DE ENG-->
                         <div id="ie">
                             <img src="../midias/imagens/logo-ie-150.png" alt="Logo IE" class="ie">
                             <p>

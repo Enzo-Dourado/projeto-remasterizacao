@@ -161,7 +161,6 @@ section article {
 
 div.mapa {
     padding: 10px;
-    height: 100vh;
     background-color: var(--cor-terc);
     display: block;
     box-shadow: 1px 1px 10px #00000079;
@@ -204,8 +203,8 @@ div.parceiros  p {
 
 aside {
     display: block;
-    margin: 20px;
-    width: 90vw;
+    margin: auto;
+    width: 90%;
     background-color: var(--cor-set);
     padding: 15px;
     text-shadow: 1px 1px 10px #00000086;

@@ -25,10 +25,10 @@ body, html {
 }
 
 header {
-    background: var(--cor-sec) url(../midias/imagens/matemática\,\ azul\ e\ branco.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0.418) url(../midias/imagens/matemática\,\ azul\ e\ branco.jpg) no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
+    background-blend-mode: multiply;
 
     height: 100vh;
 

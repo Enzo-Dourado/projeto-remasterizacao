@@ -1,6 +1,3 @@
-var nome = prompt('Qual seu nome?')
-window.alert('Seja Bem-vindo(a), ' + nome)
-
 
 function clicMenu() {
     if (menu.style.display == 'block') {
@@ -9,6 +6,11 @@ function clicMenu() {
     else {
         menu.style.display = 'block'
     }
+}
+
+function alerta() {
+    var saudacao = prompt('Qual seu nome?')
+    var alerta = alert(`Seja bem-vindo(a), ${saudacao}`)
 }
 
 function mudouTamanho() {

@@ -25,13 +25,11 @@ body, html {
 }
 
 header {
-    background: rgba(0, 0, 0, 0.418) url(../midias/imagens/matemática\,\ azul\ e\ branco.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0.418) url(midias/imagens/matemática-background.jpg) no-repeat;
     background-position: center center;
     background-size: cover;
     background-blend-mode: multiply;
-
     height: 100vh;
-
     position: relative;
 }
 
@@ -65,6 +63,7 @@ h1.logo-principal {
 /* Conteúdo */
 main {
     background-color: var(--cor-princ);    
+    height: 100vh;
 }
 
 /* Menu de pesquisa */
@@ -176,7 +175,7 @@ div.mapa h2 {
     width: 100%;
 }
 
-/* Conteúdo (Parceiros) */
+/* Conteúdo (Pareceiros) */
 
 div.parceiros {
     background-color: var(--cor-princ);
@@ -184,6 +183,19 @@ div.parceiros {
     padding-top: 30px;
     text-align: center;
 }
+
+aside {
+    display: block;
+    margin: auto;
+    width: 85%;
+    background-color: var(--cor-set);
+    padding: 15px;
+    text-shadow: 1px 1px 10px #00000086;
+    box-shadow: 1px 1px 10px #00000086;
+    border-radius: 10px;
+}
+
+/* Conteúdo (Parceiros) */
 
 div.parceiros h1 {
     color: var(--cor-quint);
@@ -197,26 +209,15 @@ div.parceiros  p {
     font-size: 0.9em;
     font-family: Arial, Helvetica, sans-serif;
     color: #000000a2;
+    
 }
 
-/* Conteúdo (Pareceiros[Imagens]) */
-
-aside {
-    display: block;
-    margin: auto;
-    width: 90%;
-    background-color: var(--cor-set);
-    padding: 15px;
-    text-shadow: 1px 1px 10px #00000086;
-    box-shadow: 1px 1px 10px #00000086;
-    border-radius: 10px;
-}
 
 /* Imagem (Parceiros) */
 
 div#imagens  p {
     display: block;
-    margin: auto;
+    margin: 20px auto;
     width: 70vw;
     padding: 10px;
     
@@ -232,3 +233,14 @@ img.ie {
     height: 45px;
 }
 
+/* Rodapé*/
+
+footer {
+    background-color: black;
+    width: 100%;
+    
+}
+
+.container-footer {
+    margin: 10px;
+}
